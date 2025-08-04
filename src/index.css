@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .primary-btn {
+    @apply bg-primary text-white cursor-pointer hover:bg-primary/80 px-4 py-2 rounded-lg my-3;
+  }
+
+  .outline-btn {
+    @apply ring-2 ring-primary inset-0 text-primary cursor-pointer hover:bg-primary hover:text-white px-4 py-2 rounded-lg my-3;
+  }
+}
+html {
+  @apply font-sans antialiased;
+}
+*{
+  box-sizing: border-box;
+}
+.text-orange{
+  color: #ED8936;
+}
+.hover\:text-orange:hover {
+  color: #ED8936;
+}
+.text-white{
+  color: #FFFFFF;
+;
+}
+html, body {
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+  max-width: 100vw;    /* Ensure the body doesn't exceed viewport width */
+  width: 100%;
+  padding: auto;         /* Ensures the body takes up full width */
+         /* Removes default margin */
+}
+/* styles/global.css or index.css */
+:root {
+  --color-primary: #623109;
+  --color-background: #2424ef;
+  --color-text-primary: #ED8936;
+}
+
+.dark {
+  --color-background: #000000;
+  --color-text-primary: #ffffff;
+   --color-text-primary: #ED8936;
+}
+/* Remove default slick arrows */
+/* Change arrow color to black */
+.slick-prev::before,
+.slick-next::before {
+  font-size: 24px;
+  color: black; /* Default for light theme */
+}
+
+/* Tailwind’s dark mode uses class strategy, usually 'dark' on <html> or <body> */
+.dark .slick-prev::before,
+.dark .slick-next::before {
+  color: white !important;
+}
+
+
+@font-face {
+  font-family: 'InteraktFont';
+  src: url('https://app.interakt.ai/your-font.woff2') format('woff2');
+}
