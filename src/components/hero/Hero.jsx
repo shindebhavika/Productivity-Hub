@@ -7,7 +7,7 @@ import { useNavigate } from "react-router-dom";
 const Hero = () => {
   const navigate = useNavigate();
 const teamMembers = [
-"../images/people1.webp",
+"../images/people3.webp",
 "../images/people2.webp",
 "../images/people3.webp",
 
@@ -104,9 +104,9 @@ const teamMembers = [
     <main className="w-full bg-[#fbf7ff] dark:bg-gray-900 dark:text-white pt-24  ">
       <div className="container w-full xs:max-w-screen-3xl  grid grid-cols-1 xl:grid-cols-2 items-center gap-12 px-1 py-16  xs:px-3 xxs:px-8 ">
         {/* Left Content */}
-        {/* <AppointmentScheduler/> */}
+
         <div className="space-y-6w-full px-0">
-          {/* Trust Indicator */}
+
           <div className="flex items-center gap-4 fade-in-item">
             <div className="flex -space-x-4">
               {teamMembers.map((img, index) => (
