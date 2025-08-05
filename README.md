@@ -9,11 +9,11 @@
     cd Productivity-Hub
 
 3.**Install dependencies**
-  
-npm install
+    ```bash
+     npm install
 4.**Run the development server**
-
-npm run dev
+   ```bash
+   npm run dev
 
 ## 🚀 Live Demo
 
