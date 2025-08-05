@@ -4,15 +4,15 @@
    ```bash
    git clone https://github.com/shindebhavika/Productivity-Hub.git
    
-2.**Navigate to the client directory**
-  
-  cd Productivity-Hub
+2. **Navigate to the client directory**
+     ```bash
+    cd Productivity-Hub
 
 3.**Install dependencies**
-   ```bash
+  
 npm install
 4.**Run the development server**
-   ```bash
+
 npm run dev
 
 ## 🚀 Live Demo
