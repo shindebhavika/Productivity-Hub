@@ -5,8 +5,8 @@
    git clone https://github.com/shindebhavika/Productivity-Hub.git
    
 2.**Navigate to the client directory**
-   ```bash
- cd Productivity-Hub
+  
+  cd Productivity-Hub
 
 3.**Install dependencies**
    ```bash
