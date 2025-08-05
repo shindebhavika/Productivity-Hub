@@ -17,9 +17,10 @@
    npm run dev
 
 ## 🚀 Live Demo
+[🔗  Click here to View Demo](https://productivity-hub-lemon.vercel.app/)
 
-[🔗 View Demo]([https://your-vercel-or-netlify-link.com](https://productivity-hub-lemon.vercel.app/))
 ## 📁 Folder Structure
+  ```bash
 ---public
 |   |   vite.svg
 |   |
