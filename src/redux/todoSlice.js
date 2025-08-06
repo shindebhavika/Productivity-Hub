@@ -4,7 +4,7 @@ import { createSlice } from '@reduxjs/toolkit';
 const initialState = {
   todos: [
     { text: 'Hello', id: 1, completed: false },
-    { text: 'Learn Redux Toolkit', id: 2, completed: true },
+    { text: 'Learn Redux Toolkit', id: 2, completed: false },
     { text: 'Build Todo App', id: 3, completed: false },
   ],
 };
